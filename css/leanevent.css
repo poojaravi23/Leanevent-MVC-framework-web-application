@@ -1,0 +1,564 @@
+body
+{
+	font-color : #595959;
+	background-color : #FFFFFF;
+	font-family :Roboto,Arial,sans-serif;
+	text-align: center;
+}
+.wrapper
+{
+	max-width:auto; 
+	margin-left:auto;
+	margin-right:auto;
+	width: 80%;
+	text-align: center;
+	margin: auto;
+
+}
+.homebanner
+{
+	position: absolute;
+  width:90%; 
+  height:50%;
+  left:80px;
+  top:15%;
+ clip: rect(0px,1538px,410px,0px)
+}
+.navbar{
+	font-weight:bold;
+	font color:black;
+	padding:10px;
+
+ /* background-color: #90C7E3;*/
+}
+header{
+  color: #595959;
+  background-color: #FFFFFF ;
+
+}
+a:link{
+color: black;
+}
+
+li a,p a,a{
+  color: #595959;
+  text-align: left;
+  text-decoration: none;
+}
+li {
+  float: right;
+   padding: 10px 15px;
+
+}
+ul {
+  list-style-type: none;
+
+}
+h1{
+line-height: 200%;
+}
+.banner{
+  position: absolute;
+  width:90%; 
+  height:400px;
+  left:80px;
+  top:0px;
+  clip: rect(115px,1500px,285px,20px)
+}
+
+
+.centered1{
+  position: absolute;
+  top: 180px;
+  left: 700px;}
+ 
+ .inicio1{
+  position: absolute;
+  top: 200px;
+  left: 700px;
+  font-size: 58%;
+
+  }
+  .centered2{
+  position: absolute;
+  top: 180px;
+  left: 675px;
+ font-size: 100%;}
+ 
+ .inicio2{
+  position: absolute;
+  top: 200px;
+  left: 675px;
+  font-size: 60%;
+  }
+
+ .classform{
+  font-size: 80%;
+  position: absolute;
+  top:300px;
+  left: 300px; 
+  text-align: left;
+  width: 70%;
+ }
+ 
+ .column{
+  text-align: centre;
+  float: left;
+  width: 20%;
+  padding: 10px;
+
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.one{
+	width:43%;
+	padding-left:50px;
+}
+.two{
+	color:#FFC300;
+	font-size: 100%;
+}
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], textarea {
+  width: 48%;
+  top: 90px;
+  left: 590px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+select{
+  width:100%;
+  top: 90px;
+  left: 590px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+input[type=submit] {
+  background-color: #FFC300;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 300px;
+  border-radius:20px;
+
+}
+
+input[type=submit]:hover {
+  background-color: #FFC300;
+}
+
+.contactform {
+  background-color: #f2f2f2;
+  padding: 20px;
+  width: 825px;
+}
+.foot{
+	position: absolute;
+	top: 1300px;
+	left:520px;
+  text-align: center;
+  font-size: 0.7em;
+  font-family: Roboto;
+	}
+.mybtn{
+  border: none;
+  position: absolute;
+  top: 100px;
+  left: 790px;
+  padding: 10px;
+  height:35px;
+   width:35px;
+  background-color: #FFC300;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+ .columnabout{
+  
+  float: left;
+  width:35%;
+  padding-left: 60px;
+  text-align: justify;
+   text-justify: inter-word;
+   font-size: 80%;
+ }
+
+.columnbuy{
+  
+  float: left;
+  width:15%;
+  padding-left: 10px;
+   font-size: 80%;
+ }
+.rectangle{
+	position: absolute;
+	top: 890px;
+	left: 80px;
+  height: 110px;
+  width: 90%;
+  padding-top: 20px;
+  background-color:  #FFC300;
+}
+
+}
+ol{
+
+	float: none;
+	list-style-type: disc; 
+	padding: 5px;
+
+}
+ol li{
+	float: none;
+	padding: 0px 0px 1px 0px;
+	padding-left: 10px;
+  list-style-type: disc
+
+}
+div.rectangle input[type=text] {
+
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 30%;
+  background: #f1f1f1;
+  margin-top: 10px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+div.rectangle  button[type="submit"] {
+
+  float: left;
+  width: 10%;
+  padding: 10px;
+  background: black;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+  margin-top: 10px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+
+}
+.textrow {
+size: 2px;
+width: 3%;
+display: inline-block;
+  }
+
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+  height: 1500px;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 70px;
+  background: #fff;
+  width: 40%;
+  position: absolute;
+  margin-left:395px;
+  margin-top: 45px;
+  height: 280px; 
+  padding:0px;
+  border-radius:4px;
+}
+th{
+  text-align: center;
+ padding: 12px;
+ font-size: 80%;
+  background-color: #f0f0f0;
+}
+
+.indimage{
+  height: 70px;
+  width: 60px;
+
+}
+.eventable{
+ 
+  border: 1px solid #F0F0F0;
+  border-collapse: collapse;
+  border-left: 0px;
+  border-right: 0px;
+}
+tr{
+  border-bottom: 1px solid #F0F0F0;
+  font-size: 80%;
+}
+td{
+  padding: 10px;
+}
+.modifyButton{
+ padding: 10px;
+  border-radius: 20px;  
+  border: none;
+  width: 50px;
+  background-color: #FFC300;
+}
+
+
+.nota{
+  background-color: #FFC300;
+  border:1px solid #FFC300;
+  width: 5%;
+  border-radius: 15px;
+  padding: 3px;
+  padding-left: 8px;
+  font-size: 90%;
+  margin-top: 0px;
+  color:white;
+
+}
+input[type="radio"]{
+  margin-left: 25px;
+
+}
+.bannerabout1{
+  position: absolute;
+  width:90%; 
+  height:430px;
+  left:80px;
+  top:680px;
+  clip: rect(283px,1538px,394px,0px)
+}
+.bannerabout2{
+  position: absolute;
+  width:90%; 
+  height:400px;
+  left:80px;
+  top:1025px;
+  clip: rect(0px,1538px,72px,0px)
+}
+.homelogo{
+  height:100%; 
+  width:100%;
+}
+.b1{
+  width:85%; 
+
+  border-radius:0;
+  color: black;
+  background-color: #FFC300;
+  border: none;
+  padding:10%;
+  font-size: 70%;
+}
+.btn{
+  margin:0%;
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: #FFC300;
+  border: none;
+  color: white;
+  padding:3%;
+  width:35%;
+}
+.boxtext{
+  height:150%;
+  width:96.5%;
+}
+.overlapban{
+  position: absolute;
+  top: 22%;
+  left:60%;
+  width:13%;
+}
+.pagination {
+  display: inline-block;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  border: 1px solid #ddd;
+  margin: 0 4px;
+}
+
+.pagination a.active {
+  background-color: #FFC300;
+  color: black;
+  border: 1px solid #FFC300;
+}
+
+.pagination a:hover:not(.active) {
+  background-color: #ddd;}
+
+.assignbtn{
+margin-bottom: 10px;
+margin-left: 10px;
+padding: 10px;
+color: white;
+border-radius:20px;
+background-color:#FFC300;
+border: none;
+}
+
+
+section.main
+    {  
+        border:solid 1px #F0F0F0; 
+        width:200px;
+        overflow:hidden;
+        padding:0;
+    }
+  section{
+    overflow:hidden;
+        height:130px;
+        padding:0 0px 0px 0px;  
+        border:solid 1px #F0F0F0; 
+  }
+    .switchtab{
+      width: 80%;
+      margin-left: 13%;
+    }
+    .quant{
+    width: 10px;
+    height: 15px;
+    padding: 0;
+    margin:0px;
+    border: 0;
+}
+input.quantm { width:25px; height:25px;
+padding: 0px;
+margin:0px;
+background-color: #B0B0B0;
+border:0;}
+
+input.quantp { width:25px; height:25px;
+padding: 0px;
+margin:0px;
+background-color: #B0B0B0;
+border:0;}
+
+ .sponsorslist{
+  position: absolute;
+  top:140%;
+  left:5%;
+
+  height: 13%;
+  width: 66%;
+  padding-left: 22%;
+  padding-top: 10px;
+  }
+  .sponslogo{
+    width:100%;
+    height: 50%;
+  }
+  .sponslogo1{
+    width:100%;
+    height: 50%;
+  }
+ section .sponsorslist1{
+    border:solid 0px #f0f0f0; 
+        width:120%;
+        overflow:hidden;
+        padding:0;
+  }
+.pagenav{
+    position: absolute;
+    top:160%;
+    left:60%;
+  
+
+  }
+  #email_validation, #fname_validation, #lname_validation, #topic_validation, #message_validation {
+    display:none;
+
+}
+
+div.rectangle .submit{
+  float: left;
+  width: 8%;
+  margin:0px;
+ margin-top:12px;
+  padding: 14px;
+  background: black;
+  color: white;
+  font-size: 75%;
+  border: 0px solid black;
+  border-radius: 0px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  cursor: pointer;
+  padding-bottom: 12px;
+  margin-left: 0px;
+}
+.validatestyle{
+  color: red;
+}
+.selectoptn{
+  width:100%;
+}
+
+ /*
+  References:
+  1.https://fontawesome.com/
+  2. https://datatables.net/examples/basic_init/alt_pagination.html
+  3. https://www.w3schools.com/html/
+  4. https://codepen.io/sahil4test/pen/xERYvX
+  5. https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_shapes_rectangle
+  6. http://www.corelangs.com/css/box/ontop.html
+  7.https://brandongaille.com/37-catchy-charity-campaign-slogans/
+  8.http://ezinearticles.com/?Importance-Of-Medicine-In-Our-Daily-Lives&id=480726
+
+  9.https://www.oprah.com/omagazine/the-benefits-of-giving-to-charity
+  10.https://www.wildapricot.com/blogs/newsblog/2017/08/09/advantages-and-disadvantages-of-nonprofits
+  11.https://www.brothersbrother.org/medical-charity/
+  12.https://www.moneycrashers.com/benefits-charitable-giving-donations/
+  13.https://www.missionbox.com/article/545/how-to-spot-and-avoid-fundraising-fraud
+  14.https://en.wikipedia.org/wiki/Fundraising#Purposes*/
+
+  
+  /* Project 4 references
+1. http://codewithawa.com/posts/how-to-send-email-in-php
+2. https://www.123formbuilder.com/web-form-validation-script/
+3. https://www.cloudways.com/blog/custom-php-mysql-contact-form/
+4. https://alvinalexander.com/php/php-date-formatted-sql-timestamp-insert
+5. https://www.tutorialspoint.com/php/php_mysql_login.htm
+6. https://www.oreilly.com/library/view/regular-expressions-cookbook/9781449327453/ch04s14.html
+7. https://bavotasan.com/2009/processing-multiple-forms-on-one-page-with-php/
+8. https://www.quora.com/How-do-you-access-the-session-variable-from-another-page-with-PHP
+9. https://1bestcsharp.blogspot.com/2015/10/php-mysql-populate-html-table-database-code.html
+10. https://stackoverflow.com/questions/20556773/php-display-image-blob-from-mysql
+11. https://stackoverflow.com/questions/43853908/creating-input-field-from-html-table-that-has-php-value
+12. https://stackoverflow.com/questions/19975624/retrieving-post-values-from-form-with-dynamic-element-names*/
